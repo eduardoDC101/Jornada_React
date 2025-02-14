@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        text-align: center;
+        background-color: rgb(185, 158, 123);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+      button {
+        width: 300px;
+        padding: 20px;
+        margin: 10px;
+        border-radius: 10px;
+        font-size: 18px;
+        background-color: rgb(122, 122, 173);
+      }
+      button:hover {
+        background-color: #818080;
+        cursor: pointer;
+      }
+
+      #areaListas {
+        font-size: 18px;
+        font-family: monospace;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>< Trabalhando com Listas ></h1>
+    <br />
+    <br />
+
+    <div id="areaListas">Lista:</div>
+
+    <br />
+    <br />
+
+    <button onclick="inserir()">Inserir Item</button>
+    <br />
+    <button onclick="removerF()">Remover do Fim</button>
+    <br />
+    <button onclick="removerI()">Remover do Inicio</button>
+    <br />
+    <button onclick="subisti()">Subistituir Item</button>
+    <br />
+    <button onclick="limpar()">Limpar Lista</button>
+    <br />
+    <br />
+    <button onclick="window.location.href = 'seguranca.html'">
+      Limpar Lista
+    </button>
+
+    <script src="script05.js"></script>
+  </body>
+</html>
