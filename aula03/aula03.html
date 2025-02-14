@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AULA 03</title>
+  </head>
+  <body>
+    <div id="bemVindo">Aguardando valor...</div>
+
+    <button
+      onclick="document.getElementById('bemVindo').innerHTML = 'Seja Bem-vindo, ' + prompt('Digite seu nome: ')"
+    >
+      Mudar Div
+    </button>
+
+    <button onclick="this.innerHTML = prompt('Digite um nome para o botão: ')">
+      BOTÃO
+    </button>
+  </body>
+</html>
