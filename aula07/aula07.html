@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AULA 07</title>
+    <style>
+      body {
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        background-color: rgb(208, 191, 168);
+      }
+      #areaNome {
+        background-color: antiquewhite;
+        width: 500px;
+        padding: 30px;
+        border-radius: 5px;
+        margin: 0 auto;
+        border: 1px solid black;
+        color: rgba(0, 0, 0, 0.82);
+      }
+
+      button {
+        background-color: rgb(187, 143, 85);
+        padding: 10px 20px;
+        color: rgba(0, 0, 0, 0.845);
+        border: none;
+        border-radius: 5px;
+        box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.337);
+        font-weight: 600;
+        font-size: 16px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>LocalStorage (Cookies):</h1>
+    <br />
+
+    <div id="areaNome">
+      <h4>...</h4>
+    </div>
+
+    <br />
+
+    <button onclick="inserirNome()">Inserir Dados</button>
+    <button onclick="removerNome()">Remover Dados</button>
+
+    <script src="script07.js"></script>
+  </body>
+</html>
