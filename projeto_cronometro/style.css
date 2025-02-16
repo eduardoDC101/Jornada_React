@@ -1,0 +1,35 @@
+body {
+  text-align: center;
+  background-color: rgb(37, 37, 37);
+  font-family: "Orbitron", serif;
+}
+
+#fundorelo {
+  background-color: rgb(12, 70, 94);
+  width: 400px;
+  margin: 0 auto;
+  border-radius: 10px;
+  padding: 15px 25px;
+}
+#Relogio {
+  color: white;
+  background-color: rgb(0, 0, 0);
+  height: 80px;
+  border-radius: 5px;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+#iniciar {
+  background-color: rgb(102, 45, 45);
+  padding: 10px;
+  border-radius: 20px;
+  margin-right: 10px;
+}
+
+#finalizar {
+  background-color: rgb(45, 102, 73);
+  padding: 10px;
+  border-radius: 20px;
+  margin-left: 10px;
+}
