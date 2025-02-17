@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora de IMC</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="Fundo">
+      <div id="FundoForm">
+        <h1>Calculadora de IMC</h1>
+        <h3>Descubra já se você está com o peso ideal</h3>
+
+        <form onsubmit="return calcularImc(event)">
+          <label>Digite seu peso:</label>
+          <br />
+          <input type="text" name="peso" id="peso" placeholder="exemplo: 87" />
+
+          <br />
+          <br />
+          <label>Digite sua altura:</label>
+          <br />
+          <input
+            type="text"
+            name="altura"
+            id="altura"
+            placeholder="exemplo: 1.76"
+          />
+
+          <br />
+          <br />
+          <br />
+          <br />
+
+          <input id="botao" type="submit" value="Calcular IMC" />
+        </form>
+        <br />
+        <br />
+
+        <div id="area"></div>
+      </div>
+      <div id="tabela">
+        <div>
+          <table>
+            <thead>
+              <tr>
+                <th>IMC</th>
+                <th>Classificação</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>&lt; 18.5</td>
+                <td>Magreza</td>
+              </tr>
+              <tr>
+                <td>18.5 a 24.9</td>
+                <td>Normal</td>
+              </tr>
+              <tr>
+                <td>24.9 a 30</td>
+                <td>Sobrepeso</td>
+              </tr>
+              <tr>
+                <td>&gt; 30</td>
+                <td>Obesidade</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div id="img">
+          <img src="rb_2871.png" alt="nutrição" width="250" />
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

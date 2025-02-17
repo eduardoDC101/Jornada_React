@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(112, 177, 148);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 20px;
+}
+
+#Fundo {
+  background-color: rgba(217, 216, 216, 0.875);
+  width: 70%;
+  height: 500px;
+  margin: 40px auto 0 auto;
+  border-radius: 10px;
+  padding: 40px;
+  text-align: left;
+  display: flex;
+  justify-content: space-around;
+}
+
+#FundoForm h1 {
+  font-size: 40px;
+  color: rgb(0, 107, 59);
+  margin-bottom: 7px;
+}
+
+#FundoForm h3 {
+  font-size: 17px;
+  color: rgba(0, 40, 22, 0.757);
+  margin-bottom: 45px;
+}
+
+form {
+  text-align: left;
+  width: 100%;
+}
+
+form label {
+  font-weight: bold;
+  color: rgba(0, 40, 22, 0.757);
+}
+
+form input {
+  width: 100%;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 5px;
+  margin-top: 10px;
+}
+
+form input#botao {
+  background-color: rgb(1, 131, 73);
+  color: whitesmoke;
+  font-size: 20px;
+}
+
+form input#botao:hover {
+  background-color: rgb(5, 169, 95);
+  cursor: pointer;
+}
+
+#area {
+  background-color: rgba(240, 248, 255, 0.462);
+  width: 95%;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.621);
+}
+
+#tabela {
+  width: 50%;
+  margin-left: 30px;
+  padding: 0;
+  border-collapse: collapse;
+}
+
+#tabela thead tr th {
+  text-align: center;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+#tabela thead tr {
+  background-color: rgb(1, 131, 73);
+  color: whitesmoke;
+}
+#tabela tbody tr {
+  background-color: rgba(84, 170, 131, 0.542);
+  color: whitesmoke;
+}
+
+#tabela tbody tr td {
+  border: 1px solid black;
+  padding: 10px;
+  text-align: center;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.667);
+}
+
+#tabela table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#img {
+  width: 100%;
+  padding-top: 30px;
+  text-align: center;
+}
+
+@media (max-width: 500px) {
+  #area {
+    width: 96%;
+  }
+  #Fundo {
+    width: 80%;
+    height: 600px;
+  }
+  form {
+    width: 90%;
+  }
+}
