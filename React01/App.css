@@ -1,0 +1,48 @@
+#Back {
+  background-color: black;
+  height: 550px;
+  padding-top: 100px;
+}
+
+#BackText {
+  background-color: rgba(0, 255, 255, 0.705);
+  color: whitesmoke;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 50px 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-radius: 10px;
+}
+
+#BackText h1 {
+  font-size: 70px;
+  text-shadow: 1px 1px 2px black;
+}
+
+#BackText h3 {
+  font-size: 50px;
+  text-shadow: 1px 1px 2px black;
+}
+
+#BackText button {
+  background-color: rgb(23, 23, 112);
+  color: whitesmoke;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 5px;
+  font-size: 30px;
+}
+
+#BackText button:hover {
+  background-color: rgb(255, 255, 255);
+  color: blue;
+}
+
+#BackText a {
+  color: rgb(34, 154, 202);
+}
+
+#BackText a:hover {
+  color: rgb(25, 78, 99);
+}
