@@ -1,0 +1,71 @@
+h1 {
+  color: white;
+  font-size: 100px;
+}
+
+.fundo {
+  max-width: 80%;
+  margin: 120px auto;
+  text-align: center;
+}
+
+.fundoBtn {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fundoBtn button {
+  border: none;
+  background-color: aliceblue;
+  border-radius: 200px;
+  padding: 13px 20px;
+  margin: 0 10px;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.fundoBtn button:hover {
+  background-color: rgb(165, 174, 182);
+}
+
+.fundoBtn button:active {
+  background-color: rgb(126, 135, 142);
+  scale: 0.9;
+  color: royalblue;
+}
+
+.valores {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.fundoMeta {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.fundoMeta button {
+  border: none;
+  background-color: aliceblue;
+  border-radius: 200px;
+  padding: 13px 20px;
+  margin: 20px 10px;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.fundoMeta button:hover {
+  background-color: rgb(165, 174, 182);
+}
+
+.fundoMeta button:active {
+  background-color: rgb(126, 135, 142);
+  scale: 0.9;
+  color: royalblue;
+}
