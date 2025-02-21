@@ -1,0 +1,30 @@
+.fundoListaProdutos {
+  text-align: center;
+  width: 100%;
+}
+
+.fundoListaProdutos ul {
+  list-style-type: none;
+}
+
+.fundoListaProdutos ul li {
+  background-color: aliceblue;
+  color: black;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 10px 20px;
+  font-weight: 600;
+  width: 50%;
+  margin: 10px auto;
+}
+
+.alinhar {
+  width: 20%;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.alinhar input,
+select {
+  width: 100%;
+}
