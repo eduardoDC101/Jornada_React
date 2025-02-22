@@ -1,0 +1,21 @@
+header {
+  padding: 20px;
+  background-color: rgb(34, 34, 117);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav a {
+  color: white;
+  font-weight: 600;
+  letter-spacing: 2px;
+  font-size: 1em;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: greenyellow;
+}
