@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revisão JS</title>
+    <style>
+        .botao{
+            background-color: rgba(52, 52, 52, 0.544);
+            font-size: 20px;
+            font-weight: bold;
+            border-radius: 5px;
+            
+        }
+    </style>
+</head>
+<body>
+    <br>
+    <button onclick="window.location.href='https://suap.ifsp.edu.br/accounts/login/?next=/' ">Suap</button>
+    <button onclick="window.location.href=window.location.href">Recarregar</button>
+    <button onclick="window.location.href='index2.html'"> >> </button>
+
+    <br>
+    <br>
+    <br>
+
+    <div id="muda-texto">
+        Aguardando Texto...
+    </div>
+    <button onclick="document.getElementById('muda-texto').innerHTML = 'Escreveu: ' +  prompt('Digite um texto alternativo: ')">Mudar Texto</button>
+
+    <button onclick="this.innerHTML = prompt('Digite o texto: ')">Mudar Texto Botão</button>
+    
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <div id="result-conta" style="font-size: 30px;font-weight: bold; font-family: Verdana, Geneva, Tahoma, sans-serif;">Resultado da Conta: </div>
+    <button onclick="fazerConta('+')" class="botao"> + </button>
+    <button onclick="fazerConta('-')" class="botao"> - </button>
+    <button onclick="fazerConta('*')" class="botao"> * </button>
+    <button onclick="fazerConta('/')" class="botao"> / </button>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <div id="array">
+        Escolha uma Opção...
+    </div>
+    <button onclick="mostrarArray()">Mostrar Array</button>
+    <button onclick="adicionarArray()">Adicionar Item</button>
+    <button onclick="rmInicioArray()">Remover do Começo</button>
+    <button onclick="rmFimArray()">Remover do Fim</button>
+    <button onclick="pesquisaArray()">Pesquisar Item</button>
+
+
+    <script type="text/javascript" src="./scriptrevisao.js"></script>
+</body>
+</html>
