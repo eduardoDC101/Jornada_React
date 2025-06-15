@@ -1,3 +1,5 @@
+/* Código para revisar conceitos em Javascript */
+
 // Revisando Javascript 09/06/2025
 console.log("Inciando...");
 //alert("Olá, Seja Bem Vindo!!!");
